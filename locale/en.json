@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Claude Design System Prompt (skill)",
+    "description": "Bundled design-review skill: AI-slop detection, accessibility audit, hierarchy and rhythm review, interaction states and the polish-pass gate.",
+    "detail": "The claude-design-system-prompt skill from Trystan-SA/claude-design-system-prompt (MIT), shipped with the full 20-chapter prompt and 14 procedural skills. The model invokes it when a task involves designing, reviewing or polishing a user interface."
+  }
+}

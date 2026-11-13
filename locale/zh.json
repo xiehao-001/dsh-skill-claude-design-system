@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Claude 设计系统提示词（技能）",
+    "description": "随包附带的设计审校技能：AI 味检测、无障碍审计、层级与节奏复审、交互状态与 polish-pass 终审。",
+    "detail": "技能 claude-design-system-prompt 来自 Trystan-SA/claude-design-system-prompt（MIT），随包保存 20 章系统提示词全文与 14 个流程技能。模型在需要设计、审校或润色界面时自动调用；也可手动输入 /claude-design-system-prompt 使用。"
+  }
+}

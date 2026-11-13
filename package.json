@@ -1,0 +1,44 @@
+{
+  "name": "@eduwork/dsh-skill-claude-design-system",
+  "version": "0.1.0",
+  "description": "Bundled DSH skill: the MIT-licensed Claude Design System Prompt (design philosophy, AI-slop checks, accessibility audit, hierarchy and rhythm review, polish-pass).",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/en.json": "./locale/en.json",
+    "./locale/zh.json": "./locale/zh.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/**/*.js",
+    "assets/**/*",
+    "locale/*.json",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1 <0.3.0"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": ">=4.0.2 <4.1.0"
+  },
+  "keywords": [
+    "dsh",
+    "skill",
+    "design",
+    "accessibility",
+    "frontend",
+    "review"
+  ]
+}

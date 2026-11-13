@@ -1,0 +1,5 @@
+# @eduwork/dsh-skill-claude-design-system bundle patch.
+- insert:
+    - id: dsh-skill-claude-design-system
+      name: '@eduwork/dsh-skill-claude-design-system'
+      config: {}
